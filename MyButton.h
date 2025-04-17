@@ -16,7 +16,6 @@
 
 class MyButton {
 private:
-    // Class members as per the diagram
     int buttonGPIO;
     int buttonDebounceDelay;
     int buttonLongPressDuration;

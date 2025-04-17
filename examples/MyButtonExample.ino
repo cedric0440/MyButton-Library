@@ -3,7 +3,6 @@
 // Define the GPIO pin for the button
 const int GPIO_BUTTON_TO_USE = 14;
 
-// Create an instance of MyButton
 MyButton button(GPIO_BUTTON_TO_USE, INPUT_PULLDOWN);
 
 void setup() {
